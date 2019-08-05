@@ -1,14 +1,12 @@
-<h2>BEERS</h2>
 
-
-<div class="card" style="width: 18rem;">
-    {{#each beers}}
-        <img src="{{image_url}}" class="card-img-top" alt="...">
+<div class="card">
+    
+        <img src="{{this.image_url}}" class="card-img-top" alt="">
         <div class="card-body">
             <h5 class="card-title">{{this.name}}</h5>
             <h6 class="card-title">{{this.tagline}}</h6>
             <p class="card-text">{{this.description}}</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-    {{/each}}
+   
 </div>
