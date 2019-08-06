@@ -33,8 +33,7 @@ app.get("/randomBeer", (req, res, next) => {
       res.render('randomBeer.hbs', beers[0]);
       //console.log(beers[0])
     })
-    .catch(error => {
-      console.log(error)
+    .catch(error => {console.log(error)
     })
  })
 
