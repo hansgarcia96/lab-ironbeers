@@ -35,6 +35,6 @@ app.get("/randomBeer", (req, res, next) => {
     })
     .catch(error => {console.log(error)
     })
- })
+ });
 
-app.listen(3000);
+app.listen(8080);
